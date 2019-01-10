@@ -27,7 +27,7 @@ else if($message == "ฝันดี110"){
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "text";
         $arrayPostData['messages'][0]['text'] = "สวัสดีจ้าาา110";
-        replyMsg($arrayHeader,$arrayPostData); 
+        replyMsg($arrayHeader,$arrayPostData);
     }
 function replyMsg($arrayHeader,$arrayPostData){
         $strUrl = "https://api.line.me/v2/bot/message/reply";
