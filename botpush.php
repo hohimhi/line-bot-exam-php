@@ -13,6 +13,7 @@
         $arrayPostData['messages'][0]['text'] = "UDN001187,(3001-31) บ้านจิก โหนด B - (3031-49) ปั้มวีรกิจ
 UDN001264,(3001-31) บ้านจิก โหนด B - (3033-40) บ้านหนองโอน";
        }
+
 else if($message == "BUN000001"){
         $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=BUN000001";
     }
