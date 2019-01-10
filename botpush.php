@@ -45182,9 +45182,6 @@ else if($message == "NKI0000003"){
         replyMsg($arrayHeader,$arrayPostData);
     }
 
-
-
-
 function replyMsg($arrayHeader,$arrayPostData){
         $strUrl = "https://api.line.me/v2/bot/message/reply";
         $ch = curl_init();
