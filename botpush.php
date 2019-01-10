@@ -7,7 +7,6 @@
     $arrayHeader[] = "Authorization: Bearer {$accessToken}";
     $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
     $arrayPostData['messages'][0]['type'] = "text";
-    //รับข้อความจากผู้ใช้
     $message = $arrayJson['events'][0]['message']['text'];
 #ตัวอย่าง Message Type "Text"
     if($message == "3001-31"){
