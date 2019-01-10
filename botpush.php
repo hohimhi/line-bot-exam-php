@@ -17,6 +17,7 @@
         replyMsg($arrayHeader,$arrayPostData);
     }
 else if($message == "LEI000487"){
+        $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=LEI000487";
         replyMsg($arrayHeader,$arrayPostData);
     }
