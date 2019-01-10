@@ -15065,7 +15065,6 @@ else if($message == "LEI000488"){
         $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=LEI000488";
     }
 
-
 replyMsg($arrayHeader,$arrayPostData);
 function replyMsg($arrayHeader,$arrayPostData){
         $strUrl = "https://api.line.me/v2/bot/message/reply";
