@@ -29,8 +29,6 @@ else if($message == "ฝันดี110"){
         $arrayPostData['messages'][0]['text'] = "สวัสดีจ้าาา110";
         replyMsg($arrayHeader,$arrayPostData);
     }
-
-
 function replyMsg($arrayHeader,$arrayPostData){
         $strUrl = "https://api.line.me/v2/bot/message/reply";
         $ch = curl_init();
