@@ -15,15 +15,13 @@ ini_set('memory_limit', '-1');
     if($message == "สวัสดี"){
         $arrayPostData['messages'][0]['text'] = "QQ";
        }
-else if($message == "3809-65"){
-$arrayPostData['messages'][0]['text'] = "BUN000373,(3809-65) นาแสง2 - (3809-62) คำไชยวาน=Optic 12 Core DW = 2.7 km.
-BUN000374,(3809-47) นาแสง - (3809-65) นาแสง2=Optic 12 Core DW = 1.1 km.;"
+else if($message == "BUN000007"){
+        $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=BUN000007";
+    }
+else if($message == "BUN000008"){
+        $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=BUN000008";
     }
 
-
-else if($message == "0"){
-        $arrayPostData['messages'][0]['text'] = "0;
-    }
 
 replyMsg($arrayHeader,$arrayPostData);
 function replyMsg($arrayHeader,$arrayPostData){
