@@ -18300,6 +18300,7 @@ else if($message == "NKI000557"){
         $arrayPostData['messages'][0]['text'] = "http://nproject.triplet.co.th:90/fund2014/show_core_assignment.php?id=NKI000557";
     }
 
+
 replyMsg($arrayHeader,$arrayPostData);
 function replyMsg($arrayHeader,$arrayPostData){
         $strUrl = "https://api.line.me/v2/bot/message/reply";
