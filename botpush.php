@@ -24,8 +24,7 @@ else if($message == "3001-32"){
 UDN000013,(3001-32) me จงมี - (3031-38) me รังษิณา=Optic 12 Core DW = 1.03 km.
 UDN000091,(ME3001-32) จงมี - (3023-43) ซอยเวียงพิงค์=Optic 12 Core DW = 1.062 km.
 UDN000092,(ME3001-32B) จงมี Node B - (3023-44) ซอยพิบูลย์=Optic 12 Core DW = 0.686 km.
-UDN000113,(ME3001-32) จงมี - (3023-67) บ้านห้วย=Optic 12 Core DW = 1.867 km.
-UDN000114,(ME3001-32B) จงมี Node B - (3023-68) หนองประจักษ์1=Optic 12 Core DW = 1.916 km.
+
 "";"
     }
 else if($message == "3001-33"){
