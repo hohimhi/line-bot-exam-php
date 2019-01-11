@@ -11,7 +11,6 @@ ini_set('memory_limit', '-1');
     $arrayPostData['messages'][0]['type'] = "text";
     $message = $arrayJson['events'][0]['message']['text'];
 #ตัวอย่าง Message Type "Text"
-
     if($message == "สวัสดี"){
         $arrayPostData['messages'][0]['text'] = "QQ";
        }
