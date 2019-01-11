@@ -15,21 +15,14 @@ ini_set('memory_limit', '-1');
     if($message == "สวัสดี"){
         $arrayPostData['messages'][0]['text'] = "QQ";
        }
-else if($message == "3001-31"){
-"        $arrayPostData['messages'][0]['text'] = ""UDN001187,(3001-31) บ้านจิก โหนด B - (3031-49) ปั้มวีรกิจ=12 Core= 5.7 km.
-UDN001264,(3001-31) บ้านจิก โหนด B - (3033-40) บ้านหนองโอน=Optic 12 Core DW = 12.47 km."";"
+else if($message == "3809-65"){
+$arrayPostData['messages'][0]['text'] = "BUN000373,(3809-65) นาแสง2 - (3809-62) คำไชยวาน=Optic 12 Core DW = 2.7 km.
+BUN000374,(3809-47) นาแสง - (3809-65) นาแสง2=Optic 12 Core DW = 1.1 km.;"
     }
-else if($message == "3001-32"){
-"        $arrayPostData['messages'][0]['text'] = ""NKI000001,(3001-32) me จงมี - (3201-63) me หนองสองห้อง=12 Core= 39.82 km.
-UDN000013,(3001-32) me จงมี - (3031-38) me รังษิณา=Optic 12 Core DW = 1.03 km.
-UDN000091,(ME3001-32) จงมี - (3023-43) ซอยเวียงพิงค์=Optic 12 Core DW = 1.062 km.
-UDN000092,(ME3001-32B) จงมี Node B - (3023-44) ซอยพิบูลย์=Optic 12 Core DW = 0.686 km.
 
-"";"
-    }
-else if($message == "3001-33"){
-"        $arrayPostData['messages'][0]['text'] = ""UDN000021,(3001-56) หมู่บ้าน ร่มเย็น 3 - (3001-33) หมู่บ้าน แสนสราญ=Optic 12 Core DW = 1.1 km.
-UDN000039,(3001-33) แสนสราญ - (3001-59) หมู่บ้าน เฟิร์สโฮม=Optic 12 Core DW = 1.63 km."";"
+
+else if($message == "0"){
+        $arrayPostData['messages'][0]['text'] = "0;
     }
 
 replyMsg($arrayHeader,$arrayPostData);
